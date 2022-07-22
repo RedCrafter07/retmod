@@ -1,0 +1,25 @@
+{
+	"name": "retmod",
+	"version": "1.0.0",
+	"description": "Retmod - A stack including React, Express, TailwindCSS, MongoDB and Docker out of the box.",
+	"main": "index.js",
+	"author": "RedCrafter07",
+	"license": "GPL-3.0-or-later",
+	"devDependencies": {
+		"concurrently": "^7.3.0",
+		"open-cli": "^7.0.1"
+	},
+	"scripts": {
+		"dev": "concurrently \"yarn dev:client\" \"yarn dev:server\"",
+		"dev:client": "cd client && yarn dev",
+		"dev:server": "cd server && yarn dev",
+		"install": "yarn install:server && yarn install:client",
+		"install:server": "cd server && yarn install",
+		"install:client": "cd client && yarn install",
+		"build": "yarn build:server && yarn build:client",
+		"build:server": "cd server && yarn build",
+		"build:client": "cd client && yarn build",
+		"docker": "yarn install && yarn build",
+		"start": "cd server && yarn start"
+	}
+}
