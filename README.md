@@ -19,6 +19,9 @@ The client process is just Webpack running in dev mode. Simple, right?
 ### Server Process
 The server process is another concurrently instance running typescript in watch mode and nodemon. After typescript detects changes, it will compile everything to JavaScript files and then trigger nodemon to restart the server.
 
+## Getting started
+To get started, get the retmod-cli. It's a simple command line tool that will get stuff done for you.
+
 > ### Info
 > Retmod is developed using yarn. That's why it's recommended to use yarn.
 > Install yarn with the following command:
@@ -26,18 +29,14 @@ The server process is another concurrently instance running typescript in watch 
 > npm i -g yarn
 > ```
 
-## Getting started
-Just create a repository with Retmod as template. Then clone it to your local machine. Go into the directory. After doing so, install the needed dependencies:
+> ### Requirements
+> You need to have a working node.js installation, as well as git and yarn.
 
 ```bash
-yarn install
+yarn global add retmod-cli
 ```
 
-After doing so, start server and client using the bridge, the same place you installed the dependencies.
-
-```bash
-yarn dev
-```
+Then, run the ```retmod``` command and chose "Create a new project". Simple, right? Retmod will prompt you how do you want to name the directories.
 
 ## Building
 If you want to build the application for production, use Docker:
