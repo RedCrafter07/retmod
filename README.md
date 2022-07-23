@@ -46,7 +46,7 @@ If you want to build the application for production, use Docker:
 docker build -t <your-image-name> .
 ```
 
-If you need to do it somewhere else, you can the install command and the build command are combined into one:
+If you need to do it somewhere else, you can the use the docker-command, which combines install and the build command into one:
 
 ```bash
 yarn docker
