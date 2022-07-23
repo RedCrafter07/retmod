@@ -32,11 +32,12 @@ To get started, get the retmod-cli. It's a simple command line tool that will ge
 > ### Requirements
 > You need to have a working node.js installation, as well as git and yarn.
 
+Install the CLI with the following command:
 ```bash
 yarn global add retmod-cli
 ```
 
-Then, run the ```retmod``` command and chose "Create a new project". Simple, right? Retmod will prompt you how do you want to name the directories.
+Then, run the ```retmod``` command and chose "Create a new project". Simple, right? Retmod will prompt you how do you about needed information.
 
 ## Building
 If you want to build the application for production, use Docker:
