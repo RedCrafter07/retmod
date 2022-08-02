@@ -37,7 +37,7 @@ Install the CLI with the following command:
 yarn global add retmod-cli
 ```
 
-Then, run the ```retmod``` command and chose "Create a new project". Simple, right? Retmod will prompt you how do you about needed information.
+Then, run the ```retmod``` command and chose "Create a new project". Simple, right? Retmod will prompt you about needed information.
 
 ## Building
 If you want to build the application for production, use Docker:
@@ -53,3 +53,5 @@ yarn docker
 ```
 
 It's named docker, as it's the command docker runs to install and build.
+
+If you like Retmod, consider starring it. Thanks! :)
