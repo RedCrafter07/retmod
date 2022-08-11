@@ -34,7 +34,7 @@ To get started, get the retmod-cli. It's a simple command line tool that will ge
 
 Install the CLI with the following command:
 ```bash
-pnpm global add retmod-cli
+pnpm add -g retmod-cli
 ```
 
 Then, run the ```retmod``` command and chose "Create a new project". Simple, right? Retmod will prompt you about needed information.
