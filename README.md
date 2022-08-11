@@ -46,12 +46,6 @@ If you want to build the application for production, use Docker:
 docker build -t <your-image-name> .
 ```
 
-If you need to do it somewhere else, you can the use the docker-command, which combines install and the build command into one:
-
-```bash
-pnpm docker
-```
-
-It's named docker, as it's the command docker runs to install and build.
+Other methods are possible, but not really supported. However, that doesn't mean you can't use other methods.
 
 If you like Retmod, consider starring it. Thanks! :)
