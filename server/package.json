@@ -4,7 +4,7 @@
 	"main": "index.js",
 	"license": "GPL-3.0-or-later",
 	"scripts": {
-		"dev": "concurrently -n \"tsc,server\" \"yarn dev:compile\" \"yarn dev:process\"",
+		"dev": "concurrently -n \"tsc,server\" \"pnpm dev:compile\" \"pnpm dev:process\"",
 		"dev:compile": "tsc-fancy -w --preserveConsoleOutput",
 		"dev:process": "nodemon -e js,json",
 		"build": "tsc",

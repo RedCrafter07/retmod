@@ -4,8 +4,8 @@ WORKDIR /retmod
 
 COPY . .
 
-RUN yarn docker
+RUN pnpm docker
 
 EXPOSE 3000
 
-CMD ["yarn", "start"]
+CMD ["pnpm", "start"]

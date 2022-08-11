@@ -23,18 +23,18 @@ The server process is another concurrently instance running typescript in watch 
 To get started, get the retmod-cli. It's a simple command line tool that will get stuff done for you.
 
 > ### Info
-> Retmod is developed using yarn. That's why it's recommended to use yarn.
-> Install yarn with the following command:
+> Retmod is developed using pnpm. That's why it's recommended to use pnpm.
+> Install pnpm with the following command:
 > ```bash
-> npm i -g yarn
+> npm i -g pnpm
 > ```
 
 > ### Requirements
-> You need to have a working node.js installation, as well as git and yarn.
+> You need to have a working node.js installation, as well as git and pnpm.
 
 Install the CLI with the following command:
 ```bash
-yarn global add retmod-cli
+pnpm global add retmod-cli
 ```
 
 Then, run the ```retmod``` command and chose "Create a new project". Simple, right? Retmod will prompt you about needed information.
@@ -49,7 +49,7 @@ docker build -t <your-image-name> .
 If you need to do it somewhere else, you can the use the docker-command, which combines install and the build command into one:
 
 ```bash
-yarn docker
+pnpm docker
 ```
 
 It's named docker, as it's the command docker runs to install and build.

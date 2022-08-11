@@ -10,16 +10,16 @@
 		"open-cli": "^7.0.1"
 	},
 	"scripts": {
-		"dev": "concurrently \"yarn dev:client\" \"yarn dev:server\"",
-		"dev:client": "cd client && yarn dev",
-		"dev:server": "cd server && yarn dev",
-		"install": "yarn install:server && yarn install:client",
-		"install:server": "cd server && yarn install",
-		"install:client": "cd client && yarn install",
-		"build": "yarn build:server && yarn build:client",
-		"build:server": "cd server && yarn build",
-		"build:client": "cd client && yarn build",
-		"docker": "yarn install && yarn build",
-		"start": "cd server && yarn start"
+		"dev": "concurrently \"pnpm dev:client\" \"pnpm dev:server\"",
+		"dev:client": "cd client && pnpm dev",
+		"dev:server": "cd server && pnpm dev",
+		"install": "pnpm install:server && pnpm install:client",
+		"install:server": "cd server && pnpm install",
+		"install:client": "cd client && pnpm install",
+		"build": "pnpm build:server && pnpm build:client",
+		"build:server": "cd server && pnpm build",
+		"build:client": "cd client && pnpm build",
+		"docker": "pnpm install && pnpm build",
+		"start": "cd server && pnpm start"
 	}
 }
