@@ -26,8 +26,8 @@ You need to have a working node.js installation, as well as git and pnpm.
 To get started, get the retmod-cli. It's a simple command line tool that will get stuff done for you.
 
 > ### Info
-> Retmod is developed using [pnpm](https://pnpm.io). That's why it's recommended to use pnpm.
-> Install pnpm with the following command:
+> Retmod is developed using [pnpm](https://pnpm.io). That's why it's recommended to use it.
+> You can install this package manager with the following command:
 > ```bash
 > npm i -g pnpm
 > ```
