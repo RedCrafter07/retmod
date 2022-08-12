@@ -7,7 +7,7 @@ Retmod is a web development stack including
 - [**D**ocker](https://www.docker.com/)
 
 ## Why?
-I was tired having to build a web application with NextJS or similar, which are great frameworks, but it was missing something I was experienced with - express. That's why I created Retmod. It combines all of that into a single application. Means no two seperate servers running.
+I was tired having to build a web application with NextJS or similar, which are great frameworks, but they were missing something I was experienced with - express. That's why I created Retmod. It combines all of that into a single application. Means no two seperate servers running.
 
 ## How does Retmod work?
 ### Bridge
