@@ -1,6 +1,6 @@
 {
 	"name": "retmod",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Retmod - A stack including React, Express, TailwindCSS, MongoDB and Docker out of the box.",
 	"main": "index.js",
 	"author": "RedCrafter07",
