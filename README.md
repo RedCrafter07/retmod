@@ -19,20 +19,21 @@ The client process is just Webpack running in dev mode. Simple, right?
 ### Server Process
 The server process is another concurrently instance running typescript in watch mode and nodemon. After typescript detects changes, it will compile everything to JavaScript files and then trigger nodemon to restart the server.
 
+## Requirements
+You need to have a working node.js installation, as well as git and pnpm.
+
 ## Getting started
 To get started, get the retmod-cli. It's a simple command line tool that will get stuff done for you.
 
 > ### Info
-> Retmod is developed using pnpm. That's why it's recommended to use pnpm.
+> Retmod is developed using [pnpm](https://pnpm.io). That's why it's recommended to use pnpm.
 > Install pnpm with the following command:
 > ```bash
 > npm i -g pnpm
 > ```
+> Other methods can be viewed [here](https://pnpm.io/installation)
 
-> ### Requirements
-> You need to have a working node.js installation, as well as git and pnpm.
-
-Install the CLI with the following command:
+Install the [CLI](https://github.com/Retmod/cli) with the following command:
 ```bash
 pnpm add -g retmod-cli
 ```
