@@ -40,6 +40,10 @@ pnpm add -g retmod-cli
 
 Then, run the ```retmod``` command and chose "Create a new project". Simple, right? Retmod will prompt you about needed information.
 
+## Templates
+Retmod comes with a few templates. You can view them here:
+https://github.com/Retmod/templates
+
 ## Building
 If you want to build the application for production, use Docker:
 
