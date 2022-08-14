@@ -8,8 +8,8 @@ RUN npm install -g pnpm
 # Copy everything over
 COPY . .
 
-# Install all packages
-RUN pnpm install -r
+# Install all production dependencies
+RUN pnpm -r i -P --frozen-lockfile
 
 # Build the application
 RUN pnpm build
