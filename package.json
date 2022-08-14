@@ -6,7 +6,6 @@
 	"author": "RedCrafter07",
 	"license": "GPL-3.0-or-later",
 	"devDependencies": {
-		"concurrently": "^7.3.0",
 		"open-cli": "^7.0.1"
 	},
 	"scripts": {
@@ -18,5 +17,8 @@
 		"build:server": "cd server && pnpm build",
 		"build:client": "cd client && pnpm build",
 		"start": "cd server && pnpm start"
+	},
+	"dependencies": {
+		"concurrently": "^7.3.0"
 	}
 }
